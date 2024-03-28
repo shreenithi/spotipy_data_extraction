@@ -5,7 +5,7 @@ This project's code repository is designed to collect data on music tracks, thei
 
 ## Data Collection Methods
 
-We use the SpotiPy library, a Python client for Spotify's Web API, to help with data extraction.
+We use the [SpotiPy](https://spotipy.readthedocs.io/en/2.16.1/) library, a Python client for Spotify's Web API, to help with data extraction.
 
 ### API Endpoints:
 - **search()**: Retrieves track data by year and track name, using three random wildcard parameters for each year to expand our search threefold.
@@ -21,6 +21,8 @@ The data is organized into:
 - `FullTrackInfo.csv`: A combined dataset for in-depth analysis (41,647 rows, 22 columns).
 
 For insights into how these datasets link together, see the data structure diagram included below:
+
+
 ![Data Structure Diagram](images/data_structure_diagram.png)
 
 ## Spotify API Credentials Setup
